@@ -4,7 +4,7 @@
 import os
 import sys
 
-from colorama import colored
+from termcolor import colored
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 os.system("cls" if os.name == "nt" else "clear")
